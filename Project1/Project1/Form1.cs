@@ -17,5 +17,10 @@ namespace Project1
             InitializeComponent();
             MessageBox.Show("Welcome to Hello World Project!");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Show(Form2.ActiveForm);
+        }
     }
 }
