@@ -21,6 +21,7 @@ namespace Project1
         private void button1_Click(object sender, EventArgs e)
         {
             Show(Form2.ActiveForm);
+            Form1.ActiveForm.Hide();
         }
     }
 }
