@@ -15,7 +15,7 @@ namespace Project1
         public Form1()
         {
             InitializeComponent();
-            MessageBox.Show("Welcome to Hello World Project!");
+            MessageBox.Show("Welcome to Hello World Project!"+ " You can start using this app!");
         }
     }
 }
